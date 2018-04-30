@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SDP Vigenére Cipher</string>
+    <color name="white">#000000</color>
+</resources>

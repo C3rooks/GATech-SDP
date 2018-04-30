@@ -1,0 +1,95 @@
+
+#Filename
+	Presence of a file corresponding to the name: 
+	Not present.	[single][error]
+	Present.
+
+#File 
+ Size of the file:
+	Empty. [single] [property emptyfile]
+	Not Empty. 
+  Words in the file:
+  0. [single] [property zeroWords]
+  1. [single] 
+  Many. 
+
+#Flags
+  Flag with -w:
+  Present. [property delimActive]
+  Non-Present. 
+  Flag with -m:
+  Present. [property stringActive]
+  Non-Present. 
+  Flag with -f:
+  Present. [property flipActive]
+  Non-Present.  
+
+  Empty flag (no arguments passed, only filename):
+  Present. [if !flipActive && !stringActive && !delimActive] [property emptyFlag]
+  Non-Present.
+
+  Number of arguments submitted: 
+  0. [error][if !flipActive && !stringActive && !delimActive && emptyFlag]
+  > 1. 
+
+
+#Delimiter 
+  	Contains pattern:
+  	Yes. [property patternPresent]
+  	No.  [if !delimActive && !stringActive]
+
+
+#Pattern
+Presence of a quote:
+      Not present.              [property unspecified]
+      Present.                  [if delimActive || stringActive && patternPresent] [property specified]
+Presence of closed quotes:
+      Not enclosed.   [error][if specified]
+      Enclosed.     [if specified]
+
+Pattern is empty and contains no letters:
+      True. [error] [if delimActive || stringActive && specified]
+      False. [if delimActive || stringActive && specified]
+
+
+#EmptyArgs
+	If first character in each line capital:
+	Yes. [if emptyFlag]
+	No.  [if emptyFlag]
+  	
+#Flip
+   Have all letters become -f flipped: 
+   Yes.[if flipActive]
+   No. [error]
+
+#-M
+   Does -m contain pattern:
+   Yes. [if stringActive]
+   No.  [error]
+
+   Is -m pattern > file size:
+   Yes. [error]
+   No. [if stringActive]
+
+   Is -m matching word capitalized:
+   Yes. [if stringActive]
+   No. [error] 
+
+#-W 
+   Does -w contain pattern:
+   Yes. [if delimActive]
+   No.  [error]
+
+  Does file contain matching pattern: 
+  Yes. [if delimActive] 
+  No. [if delimActive] [property noMatchingPattern]
+
+
+  Is word terminated by EOF:
+  Yes. [if delimActive] 
+  No. [if delimActive] [property noEOF]
+
+
+  Is -w word capitalized: 
+  Yes. [if delimActive && !noMatchingPattern || delimActive && !noEOF]
+  No. [error]

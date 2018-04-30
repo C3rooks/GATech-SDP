@@ -1,0 +1,1108 @@
+
+Test Case 1  		<error>
+   Presence of a file corresponding to the name :  Not present
+
+
+Test Case 2  		<single>
+   Size of the file :  Empty
+
+
+Test Case 3  		<single>
+   Words in the file :  0
+
+
+Test Case 4  		<single>
+   Words in the file :  1
+
+
+Test Case 5  		<error>
+   Number of arguments submitted :  0
+
+
+Test Case 6  		<error>
+   Presence of closed quotes :  Not enclosed
+
+
+Test Case 7  		<error>
+   Pattern is empty and contains no letters :  True
+
+
+Test Case 8  		<error>
+   Have all letters become -f flipped :  No
+
+
+Test Case 9  		<error>
+   Does -m contain pattern :  No
+
+
+Test Case 10 		<error>
+   Is -m pattern > file size :  Yes
+
+
+Test Case 11 		<error>
+   Is -m matching word capitalized :  No
+
+
+Test Case 12 		<error>
+   Does -w contain pattern :  No
+
+
+Test Case 13 		<error>
+   Is -w word capitalized :  No
+
+
+Test Case 14 		(Key = 2.2.3.1.1.1.2.2.1.1.0.2.0.1.1.2.1.1.1.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 15 		(Key = 2.2.3.1.1.1.2.2.1.1.0.2.0.1.1.2.1.1.1.2.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 16 		(Key = 2.2.3.1.1.1.2.2.1.1.0.2.0.1.1.2.1.1.2.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 17 		(Key = 2.2.3.1.1.1.2.2.1.1.0.2.0.1.1.2.1.1.2.2.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 18 		(Key = 2.2.3.1.1.1.2.2.1.2.2.2.0.1.1.2.1.1.1.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 19 		(Key = 2.2.3.1.1.1.2.2.1.2.2.2.0.1.1.2.1.1.1.2.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 20 		(Key = 2.2.3.1.1.1.2.2.1.2.2.2.0.1.1.2.1.1.2.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 21 		(Key = 2.2.3.1.1.1.2.2.1.2.2.2.0.1.1.2.1.1.2.2.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 22 		(Key = 2.2.3.1.1.2.2.2.1.1.0.2.0.0.1.2.1.1.1.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 23 		(Key = 2.2.3.1.1.2.2.2.1.1.0.2.0.0.1.2.1.1.1.2.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 24 		(Key = 2.2.3.1.1.2.2.2.1.1.0.2.0.0.1.2.1.1.2.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 25 		(Key = 2.2.3.1.1.2.2.2.1.1.0.2.0.0.1.2.1.1.2.2.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 26 		(Key = 2.2.3.1.1.2.2.2.1.2.2.2.0.0.1.2.1.1.1.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 27 		(Key = 2.2.3.1.1.2.2.2.1.2.2.2.0.0.1.2.1.1.1.2.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 28 		(Key = 2.2.3.1.1.2.2.2.1.2.2.2.0.0.1.2.1.1.2.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 29 		(Key = 2.2.3.1.1.2.2.2.1.2.2.2.0.0.1.2.1.1.2.2.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 30 		(Key = 2.2.3.1.2.1.2.2.1.1.0.2.0.1.0.0.0.1.1.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 31 		(Key = 2.2.3.1.2.1.2.2.1.1.0.2.0.1.0.0.0.1.1.2.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 32 		(Key = 2.2.3.1.2.1.2.2.1.1.0.2.0.1.0.0.0.1.2.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 33 		(Key = 2.2.3.1.2.1.2.2.1.1.0.2.0.1.0.0.0.1.2.2.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 34 		(Key = 2.2.3.1.2.1.2.2.1.2.2.2.0.1.0.0.0.1.1.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 35 		(Key = 2.2.3.1.2.1.2.2.1.2.2.2.0.1.0.0.0.1.1.2.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 36 		(Key = 2.2.3.1.2.1.2.2.1.2.2.2.0.1.0.0.0.1.2.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 37 		(Key = 2.2.3.1.2.1.2.2.1.2.2.2.0.1.0.0.0.1.2.2.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 38 		(Key = 2.2.3.1.2.2.2.2.1.1.0.2.0.0.0.0.0.1.1.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 39 		(Key = 2.2.3.1.2.2.2.2.1.1.0.2.0.0.0.0.0.1.1.2.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 40 		(Key = 2.2.3.1.2.2.2.2.1.1.0.2.0.0.0.0.0.1.2.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 41 		(Key = 2.2.3.1.2.2.2.2.1.1.0.2.0.0.0.0.0.1.2.2.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 42 		(Key = 2.2.3.1.2.2.2.2.1.2.2.2.0.0.0.0.0.1.1.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 43 		(Key = 2.2.3.1.2.2.2.2.1.2.2.2.0.0.0.0.0.1.1.2.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  Yes
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 44 		(Key = 2.2.3.1.2.2.2.2.1.2.2.2.0.0.0.0.0.1.2.1.1.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  Yes
+   Is -w word capitalized                          :  Yes
+
+
+Test Case 45 		(Key = 2.2.3.1.2.2.2.2.1.2.2.2.0.0.0.0.0.1.2.2.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  Yes
+   Does file contain matching pattern              :  No
+   Is word terminated by EOF                       :  No
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 46 		(Key = 2.2.3.2.1.1.2.2.1.1.0.0.0.1.1.2.1.0.0.0.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Non-Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  <n/a>
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  <n/a>
+   Does file contain matching pattern              :  <n/a>
+   Is word terminated by EOF                       :  <n/a>
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 47 		(Key = 2.2.3.2.1.1.2.2.1.2.2.2.0.1.1.2.1.0.0.0.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Non-Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  <n/a>
+   Does file contain matching pattern              :  <n/a>
+   Is word terminated by EOF                       :  <n/a>
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 48 		(Key = 2.2.3.2.1.2.2.2.1.1.0.0.0.0.1.2.1.0.0.0.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Non-Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  <n/a>
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  <n/a>
+   Does file contain matching pattern              :  <n/a>
+   Is word terminated by EOF                       :  <n/a>
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 49 		(Key = 2.2.3.2.1.2.2.2.1.2.2.2.0.0.1.2.1.0.0.0.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Non-Present
+   Flag with -m                                    :  Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Present
+   Presence of closed quotes                       :  Enclosed
+   Pattern is empty and contains no letters        :  False
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  Yes
+   Is -m pattern > file size                       :  No
+   Is -m matching word capitalized                 :  Yes
+   Does -w contain pattern                         :  <n/a>
+   Does file contain matching pattern              :  <n/a>
+   Is word terminated by EOF                       :  <n/a>
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 50 		(Key = 2.2.3.2.2.1.2.2.1.1.0.0.0.1.0.0.0.0.0.0.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Non-Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  <n/a>
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  <n/a>
+   Does file contain matching pattern              :  <n/a>
+   Is word terminated by EOF                       :  <n/a>
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 51 		(Key = 2.2.3.2.2.1.2.2.2.1.0.0.0.1.0.0.0.0.0.0.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Non-Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  No
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  <n/a>
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  Yes
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  <n/a>
+   Does file contain matching pattern              :  <n/a>
+   Is word terminated by EOF                       :  <n/a>
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 52 		(Key = 2.2.3.2.2.2.1.2.1.1.0.0.1.0.0.0.0.0.0.0.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Non-Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  <n/a>
+   If first character in each line capital         :  Yes
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  <n/a>
+   Does file contain matching pattern              :  <n/a>
+   Is word terminated by EOF                       :  <n/a>
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 53 		(Key = 2.2.3.2.2.2.1.2.1.1.0.0.2.0.0.0.0.0.0.0.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Non-Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  <n/a>
+   If first character in each line capital         :  No
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  <n/a>
+   Does file contain matching pattern              :  <n/a>
+   Is word terminated by EOF                       :  <n/a>
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 54 		(Key = 2.2.3.2.2.2.1.2.2.1.0.0.1.0.0.0.0.0.0.0.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Non-Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  No
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  <n/a>
+   If first character in each line capital         :  Yes
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  <n/a>
+   Does file contain matching pattern              :  <n/a>
+   Is word terminated by EOF                       :  <n/a>
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 55 		(Key = 2.2.3.2.2.2.1.2.2.1.0.0.2.0.0.0.0.0.0.0.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Non-Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  No
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  <n/a>
+   If first character in each line capital         :  No
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  <n/a>
+   Does file contain matching pattern              :  <n/a>
+   Is word terminated by EOF                       :  <n/a>
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 56 		(Key = 2.2.3.2.2.2.2.2.1.1.0.0.0.0.0.0.0.0.0.0.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Non-Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  Yes
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  <n/a>
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  <n/a>
+   Does file contain matching pattern              :  <n/a>
+   Is word terminated by EOF                       :  <n/a>
+   Is -w word capitalized                          :  <n/a>
+
+
+Test Case 57 		(Key = 2.2.3.2.2.2.2.2.2.1.0.0.0.0.0.0.0.0.0.0.0.)
+   Presence of a file corresponding to the name    :  Present
+   Size of the file                                :  Not Empty
+   Words in the file                               :  Many
+   Flag with -w                                    :  Non-Present
+   Flag with -m                                    :  Non-Present
+   Flag with -f                                    :  Non-Present
+   Empty flag (no arguments passed, only filename) :  Non-Present
+   Number of arguments submitted                   :  > 1
+   Contains pattern                                :  No
+   Presence of a quote                             :  Not present
+   Presence of closed quotes                       :  <n/a>
+   Pattern is empty and contains no letters        :  <n/a>
+   If first character in each line capital         :  <n/a>
+   Have all letters become -f flipped              :  <n/a>
+   Does -m contain pattern                         :  <n/a>
+   Is -m pattern > file size                       :  <n/a>
+   Is -m matching word capitalized                 :  <n/a>
+   Does -w contain pattern                         :  <n/a>
+   Does file contain matching pattern              :  <n/a>
+   Is word terminated by EOF                       :  <n/a>
+   Is -w word capitalized                          :  <n/a>
+
